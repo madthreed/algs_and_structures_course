@@ -32,15 +32,21 @@ const cacheFactorial = cacheFunction(factorial)
 const cacheFibonachi = cacheFunction(fibonachi)
 
 cacheFactorial(5)
-cacheFactorial(4)
+
+cacheFibonachi(5)
+cacheFibonachi(4)
+
 cacheFactorial(3)
+
+cacheFibonachi(3)
+
+cacheFactorial(4)
+
+cacheFibonachi(4)
+
 cacheFactorial(4)
 cacheFactorial(5)
 cacheFactorial(1)
 
-cacheFibonachi(5)
-cacheFibonachi(4)
-cacheFibonachi(3)
-cacheFibonachi(4)
 cacheFibonachi(5)
 cacheFibonachi(1)
